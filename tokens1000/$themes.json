@@ -1,28 +1,5 @@
 {
-  "ob/test-brand": {
-    "color": {
-      "primary": {
-        "base": {
-          "$type": "color",
-          "$value": "#ff0000"
-        }
-      }
-    },
-    "font": {
-      "heading": {
-        "h1": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Inter",
-            "fontWeight": "700",
-            "lineHeight": "120%",
-            "fontSize": "32px"
-          }
-        }
-      }
-    }
-  },
-  "ob/tokens": {
+  "base/tokens/default": {
     "Base Tokens": {
       "color": {
         "primary": {
@@ -148,11 +125,12 @@
       }
     }
   },
+  "base/tokens/blue set": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "ob/test-brand",
-      "ob/tokens"
+      "base/tokens/default",
+      "base/tokens/blue set"
     ]
   }
 }
