@@ -2,7 +2,7 @@
   {
     "name": "Blue Theme",
     "tokenSets": [
-      "base/tokens/blue set",
+      "base/tokens/blue-set",
       "base/tokens/default"
     ]
   }
