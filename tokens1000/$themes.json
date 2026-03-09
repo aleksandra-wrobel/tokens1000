@@ -125,7 +125,32 @@
       }
     }
   },
-  "base/tokens/blue set": {},
+  "base/tokens/blue set": {
+    "Blue Tokens": {
+      "color": {
+        "primary": {
+          "base": {
+            "$type": "color",
+            "$value": "#0000ff"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "#0044ff"
+          }
+        },
+        "secondary": {
+          "base": {
+            "$type": "color",
+            "$value": "#00aaff"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "#0088cc"
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
